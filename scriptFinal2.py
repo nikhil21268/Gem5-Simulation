@@ -88,5 +88,5 @@ def simulate_system(cpu_type):
 
 
 print("helloworld")
-simulate_system("simple")  # Run with simple CPU
-# simulate_system("o3")      # Run with O3 CPU
+# simulate_system("simple")  # Run with simple CPU
+simulate_system("o3")      # Run with O3 CPU
