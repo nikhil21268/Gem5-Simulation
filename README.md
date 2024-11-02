@@ -37,6 +37,19 @@ To run a simulation, use the following command:
 
 ./build/RISCV/gem5.opt configs/tutorial/two_level.py
 
+## Plots
+
+![1](https://github.com/nikhil21268/Gem5-Simulation/blob/main/Plots/Plot1.png)
+
+![2](https://github.com/nikhil21268/Gem5-Simulation/blob/main/Plots/Plot2.png)
+
+## Tables
+
+![1](https://github.com/nikhil21268/Gem5-Simulation/blob/main/Plots/Table1.png)
+
+![2](https://github.com/nikhil21268/Gem5-Simulation/blob/main/Plots/Table2.png)
+
+
 ## Contributing
 
 Contributions to improve the simulations or extend the configurations are welcome. Please submit a pull request or open an issue to discuss your ideas.
