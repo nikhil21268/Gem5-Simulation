@@ -14,7 +14,7 @@ The simulation leverages the "qsort_small" benchmark from the MiBench benchmark 
 
 ## Installation
 
-### RISC-V Toolchain Setup
+## RISC-V Toolchain Setup
 
 sudo apt-get update
 sudo apt-get install autoconf automake autotools-dev curl python3 libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev ninja-build git cmake libglib2.0-dev libslirp-dev
@@ -24,14 +24,14 @@ cd riscv-gnu-toolchain
 make
 export PATH=/opt/riscv/bin:$PATH
 
-### Gem5 Installation
+## Gem5 Installation
 
-#### Assuming dependencies are installed and PATH is set
+## Assuming dependencies are installed and PATH is set
 git clone https://gem5.googlesource.com/public/gem5
 cd gem5
 scons build/RISCV/gem5.opt -j$(nproc)
 
-#### Running Simulations
+## Running Simulations
 
 To run a simulation, use the following command:
 
