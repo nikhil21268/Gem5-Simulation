@@ -26,12 +26,12 @@ export PATH=/opt/riscv/bin:$PATH
 
 ### Gem5 Installation
 
-# Assuming dependencies are installed and PATH is set
+#### Assuming dependencies are installed and PATH is set
 git clone https://gem5.googlesource.com/public/gem5
 cd gem5
 scons build/RISCV/gem5.opt -j$(nproc)
 
-## Running Simulations
+#### Running Simulations
 
 To run a simulation, use the following command:
 
